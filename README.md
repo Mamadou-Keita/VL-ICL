@@ -19,6 +19,12 @@ sudo apt-get install -y gdive
 brew install gdrive
 ```
 
+```bash
+gdrive list
+gdrive download https://drive.google.com/file/d/1hau2vkOP6bFNd9QD8Ns9HaItsCwJQiC8/view?usp=sharing
+gdrive download https://drive.google.com/file/d/1ZORbldqwmb5cXhnABURJX_lK_29uJP07/view?usp=sharing
+```
+
 ## Environment
 Different conda environments may be needed for different models.
 
