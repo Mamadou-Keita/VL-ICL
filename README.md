@@ -6,13 +6,17 @@ VL-ICL Bench: The Devil in the Details of Benchmarking Multimodal In-Context Lea
 
 
 ## Data Preparation
-We host the our dataset at HuggingFace [here](https://huggingface.co/datasets/ys-zong/VL-ICL).
+Install `gdrive`
+
+- For Linux
+  
 ```bash
-git lfs install
-git clone https://huggingface.co/datasets/ys-zong/VL-ICL
-cd VL-ICL
-bash unzip.sh
-cd ..
+sudo apt-get install -y gdive
+```
+- For macOS
+  
+```bash
+brew install gdrive
 ```
 
 ## Environment
