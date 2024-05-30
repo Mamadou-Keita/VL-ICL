@@ -11,7 +11,8 @@ Install `gdrive`
 - For Linux
   
 ```bash
-sudo apt-get install -y gdive
+sudo apt-get install -y gdrive
+sudo snap install drive #For Ubuntu
 ```
 - For macOS
   
