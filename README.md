@@ -6,24 +6,12 @@ VL-ICL Bench: The Devil in the Details of Benchmarking Multimodal In-Context Lea
 
 
 ## Data Preparation
-Install `gdrive`
-
-- For Linux
-  
-```bash
-sudo apt-get install -y gdrive
-sudo snap install drive #For Ubuntu
-```
-- For macOS
-  
-```bash
-brew install gdrive
-```
 
 ```bash
-gdrive list
-gdrive download https://drive.google.com/file/d/1hau2vkOP6bFNd9QD8Ns9HaItsCwJQiC8/view?usp=sharing
-gdrive download https://drive.google.com/file/d/1ZORbldqwmb5cXhnABURJX_lK_29uJP07/view?usp=sharing
+apt install python3-pip
+pip install gdown
+gdown 'https://drive.google.com/u/0/uc?id=1ZORbldqwmb5cXhnABURJX_lK_29uJP07&export=download'
+gdown 'https://drive.google.com/u/0/uc?id=1hau2vkOP6bFNd9QD8Ns9HaItsCwJQiC8&export=download' 
 ```
 
 ## Environment
